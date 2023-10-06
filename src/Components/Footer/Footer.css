@@ -1,0 +1,7 @@
+footer {
+    width: 100%;
+    height: 294px;
+    display: flex;
+    justify-content: center;
+    border-top: var(--myFontColor) solid 1px;
+}

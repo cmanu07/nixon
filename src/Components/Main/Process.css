@@ -1,0 +1,57 @@
+
+/* PROCESS SECTION */
+
+.process-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 68rem;
+    padding-top: 1rem;
+}
+.process-section-youtube {
+    width: 94%;
+    height: 50%;
+}
+.process-section-youtube div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.process-section-youtube div iframe {
+    width: 100%;
+}
+.process-section-details {
+    width: 94%;
+    height: 50%;
+}
+.process-section-details-div1 {
+    width: 100%;
+    height: 50%;
+    border: 1px solid red;
+}
+.process-section-details-div2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.process-section-details-div2 div {
+    flex: 1;
+    border: 1px solid aqua;
+}
+
+
+@media screen and (width < 992px) {
+    .process-section-youtube, .process-section-details {
+        width: 96%;
+    }
+
+}
+
+@media screen and (width < 768px) {
+    .process-section-details-div2 {
+        flex-direction: column;
+    }
+}

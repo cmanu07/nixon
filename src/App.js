@@ -1,10 +1,35 @@
+import React from 'react'
 
-function App() {
+import Header from './Components/Header/Header'
+import Home from './Components/Main/Home'
+import Process from './Components/Main/Process'
+import Footer from './Components/Footer/Footer'
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Nixon</h1>
-    </div>
-  );
+    <main>
+      <Header/>
+      <Home/>
+      <Process/>
+      <h1 className="text-center">Hello, World!</h1><br/>
+      <h1 className="text-center">Hello, World!</h1><br/>
+      <h1 className="text-center">Hello, World!</h1><br/>
+      <h1 className="text-center">Hello, World!</h1><br/>
+      <h1 className="text-center">Hello, World!</h1><br/>
+      <h1 className="text-center">Hello, World!</h1><br/>
+      <h1 className="text-center">Hello, World!</h1><br/>
+      <h1 className="text-center">Hello, World!</h1><br/>
+      <h1 className="text-center">Hello, World!</h1><br/>
+      <h1 className="text-center">Hello, World!</h1><br/>
+      <h1 className="text-center">Hello, World!</h1><br/>
+      <h1 className="text-center">Hello, World!</h1><br/>
+      <h1 className="text-center">Hello, World!</h1><br/>
+      <h1 className="text-center">Hello, World!</h1><br/>
+      <h1 className="text-center">Hello, World!</h1><br/>
+      <Footer/>
+
+    </main>
+  )
 }
 
-export default App;
+export default App

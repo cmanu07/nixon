@@ -1,1 +1,24 @@
+/* Main CSS file */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    --myLogoColor: #fefeff;
+    --myFontColor: #b4987b;
+    --myBlack: #041722;
+    --myTurquoise: #178e8a;
+    --myBlueTurquoise: #23779e;
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--myFontColor);
+    background: var(--myBlack) 0px 0px / 100% 100% no-repeat;
+}
+::-webkit-scrollbar {
+    background: var(--myBlack);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--myBlueTurquoise);
+    border-radius: 5px;
+}
+/* --myFontColor: rgb(180, 152, 123); */
