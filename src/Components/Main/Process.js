@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Container } from 'react-bootstrap'
 
-import './Process.css'
+import './Styles/Process.css'
 
 const Process = () => {
 

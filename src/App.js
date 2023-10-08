@@ -3,6 +3,8 @@ import React from 'react'
 import Header from './Components/Header/Header'
 import Home from './Components/Main/Home'
 import Process from './Components/Main/Process'
+import Testimonies from './Components/Main/Testimonies'
+import Services from './Components/Main/Services'
 import Footer from './Components/Footer/Footer'
 
 const App = () => {
@@ -11,21 +13,8 @@ const App = () => {
       <Header/>
       <Home/>
       <Process/>
-      <h1 className="text-center">Hello, World!</h1><br/>
-      <h1 className="text-center">Hello, World!</h1><br/>
-      <h1 className="text-center">Hello, World!</h1><br/>
-      <h1 className="text-center">Hello, World!</h1><br/>
-      <h1 className="text-center">Hello, World!</h1><br/>
-      <h1 className="text-center">Hello, World!</h1><br/>
-      <h1 className="text-center">Hello, World!</h1><br/>
-      <h1 className="text-center">Hello, World!</h1><br/>
-      <h1 className="text-center">Hello, World!</h1><br/>
-      <h1 className="text-center">Hello, World!</h1><br/>
-      <h1 className="text-center">Hello, World!</h1><br/>
-      <h1 className="text-center">Hello, World!</h1><br/>
-      <h1 className="text-center">Hello, World!</h1><br/>
-      <h1 className="text-center">Hello, World!</h1><br/>
-      <h1 className="text-center">Hello, World!</h1><br/>
+      <Testimonies/>
+      <Services/>
       <Footer/>
 
     </main>

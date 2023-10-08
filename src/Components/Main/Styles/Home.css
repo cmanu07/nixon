@@ -60,12 +60,18 @@ h2 button:hover {
     h2 {
         width: 100%;
         height: 40%;
+        min-height: 16rem;
         flex-direction: row;
         align-items: center;
+        justify-content: center;
         padding: 1.4rem 0.8rem;
     }
     .home-section-title {
-        width: 84%;
+        width: 82%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .home-section-title :first-child {
         line-height: 38px;
@@ -74,10 +80,11 @@ h2 button:hover {
         line-height: 20px;
     }
     .home-section-spline {
-        height: 100%;
+        height: 70%;
     }
     h2 button {
         font-size: calc(.7 * 1em );
+        max-width: 8rem;
     }
 }
 

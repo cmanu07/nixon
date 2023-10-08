@@ -1,7 +1,207 @@
+
+/* FOOTER SECTION */
+
 footer {
     width: 100%;
-    height: 294px;
+    height: 20rem;
     display: flex;
     justify-content: center;
-    border-top: var(--myFontColor) solid 1px;
+}
+footer section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 94%;
+    padding-top: 1rem;
+    border-top: 1px solid var(--myFontColor);
+}
+.footer-company, .footer-contact, .footer-newsletter {
+    height: 100%;
+    width: 26rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
+.footer-company {
+    padding-top: 2rem;
+}
+.footer-company-logo {
+    aspect-ratio: 3/2;
+    width: calc(100% - 9rem);
+    max-width: 16.5rem;
+    height: 4.2rem;
+    padding-left: 2rem;
+}
+.footer-company h6 {
+    width: 100%;
+    height: 5rem;
+    padding-left: 3rem;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-company div {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 0 0 2.5rem;
+    gap: 1.7rem;
+}
+.footer-company-facebook {
+    height: 60%;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    background: url('../../Media/footer_facebook_logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: ease .3s;
+}
+.footer-company-youtube {
+    height: 60%;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    background: url('../../Media/footer_youtube_logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: ease .3s;
+}
+.footer-company-instagram {
+    height: 60%;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    background: url('../../Media/footer_insta_logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: ease .3s;
+}
+.footer-company-facebook:hover {
+    height: 60%;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    background: url('../../Media/footer_facebook_logo_hover.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: ease .3s;
+}
+.footer-company-youtube:hover {
+    height: 60%;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    background: url('../../Media/footer_youtube_logo_hover.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: ease .3s;
+}
+.footer-company-instagram:hover {
+    height: 60%;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    background: url('../../Media/footer_insta_logo_hover.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: ease .3s;
+}
+
+.footer-contact-div1, .footer-contact-p, .footer-contact-div2, .footer-newsletter h6, .footer-newsletter p, .footer-newsletter div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.footer-contact {
+    justify-content: center;
+}
+.footer-contact-div1, .footer-contact-div2 {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex: 2.5;
+}
+.footer-contact-div2 {
+    justify-content: center;
+    gap: 0.5rem;
+}
+.footer-contact-div1 h6, .footer-newsletter h6 {
+    font-size: 22px;
+}
+.footer-newsletter {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-newsletter h6, .footer-newsletter p, .footer-newsletter div {
+    padding: 0.5rem 0 0 3.2rem;
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+}
+.footer-newsletter h6 {
+    align-items: center;
+}
+.footer-newsletter div input {
+    border: 0.8px solid var(--myFontColor);
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    width: 16rem;
+    height: 3rem;
+    font-size: 16px;
+    transition: ease .3s;
+}
+.footer-newsletter div input:focus {
+    outline: none;
+    font-size: 18px;
+    caret-color: var(--myFontColor);
+    border: none;
+}
+.footer-newsletter div button {
+    width: 5rem;
+    height: 3rem;
+    border-radius: 0 5px 5px 0;
+    border-style: none;
+    outline: none;
+    background-color: var(--myBlueTurquoise);
+    color: var(--myLogoColor);
+    transition: ease .3s;
+    font-size: 20px;
+}
+.footer-newsletter div button:hover {
+    cursor: pointer;
+    background-color: var(--myTurquoise);
+}
+
+@media screen and (width < 992px) {
+    footer section{
+        width: 96%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-contact-div1, .footer-contact-p, .footer-contact-div2 {
+        padding-left: 3rem;
+    }
+
+}
+
+@media screen and (width < 768px) {
+    footer section {
+        max-height: 16rem;
+    }
+    .footer-newsletter {
+        width: 26rem;
+    }
+    .footer-contact, .footer-company, .footer-newsletter {
+        min-width: 100%;
+    }
 }

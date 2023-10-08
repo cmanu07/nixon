@@ -2,7 +2,7 @@ import React from 'react'
 
 import Spline from '@splinetool/react-spline';
 
-import './Home.css'
+import './Styles/Home.css'
 
 const Home = () => {
   return (

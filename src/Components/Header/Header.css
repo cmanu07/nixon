@@ -61,7 +61,6 @@ nav {
     width: 60%;
     align-items: center;
     justify-content: space-evenly;
-    background: transparent;
 }
 nav a {
     text-decoration: none;
@@ -101,7 +100,7 @@ nav a:hover {
         position: fixed;
         top: 0;
         right: 0;
-        height: 60%;
+        height: 28rem;
         width: 60%;
         display: flex;
         flex-direction: column;
