@@ -7,20 +7,24 @@ import './Styles/Process.css'
 const Process = () => {
 
   return (
-    <section className='process-section'>
+    <section className='process-section' id='process'>
         <Container className='process-section-details'>
             <div className='process-section-details-div1'> 
-
+                <p>WHY CHOOSE US?</p>
+                <h5>Here are a few <i>reasons</i> why our customers choose<br/>NIXON STUDIO</h5>
             </div>
             <div className='process-section-details-div2'>
                 <div>
-                    <h5>01</h5>
+                    <h3>01</h3>
+                    <p>Create augmented reality experiences that turn everyday objects, images, and places into new opportunities with a real-world ROI – bring your brand to the next level!</p>
                 </div>
                 <div>
-                    <h5>02</h5>
+                    <h3>02</h3>
+                    <p>Stay ahead of the curve with rapid in-house development that continually redefines what’s possible in AR displays. We ensure both high performance and high-yield mass manufacturing methods for our displays.</p>
                 </div>
                 <div>
-                    <h5>03</h5>
+                    <h3>03</h3>
+                    <p>We use self-developed algorithms and parallel computing for diffractive waveguide design and optimization.</p>
                 </div>
             </div>
         </Container>

@@ -1,11 +1,16 @@
 import React from 'react'
 
 import nixonLogo from '../../Media/Nixon_main.webp'
-import facebookLogo from '../../Media/footer_facebook_logo.svg'
 
 import './Footer.css'
 
 const Footer = () => {
+
+  const addEmail = () => {
+    
+    console.log('tare')
+  }
+
   return (
     <footer>
       <section>
@@ -35,10 +40,10 @@ const Footer = () => {
         <div className='footer-newsletter'>
             <h6>Our newsletter</h6>
             <p>Subscribe to our newsletter to get our news delivered to you.</p>
-            <div>
-              <input type='email'/>
-              <button>Join</button>
-            </div>
+            <form>
+              <input type='email' required/>
+              <button onSubmit={addEmail}>Join</button>
+            </form>
         </div>
       </section>
     </footer>

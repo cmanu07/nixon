@@ -1,5 +1,5 @@
 
-/* HEADER */
+/* HEADER Section*/
 
 .header {
     width: 100%;
@@ -17,7 +17,7 @@
     background-color: var(--myBlack);
     width: 100%;
     height: 60px;
-    border-bottom: solid 1px var(--myFontColor);
+    border-bottom: solid 0.8px var(--myBlueTurquoise);
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -56,19 +56,27 @@ h1 a:hover .span{
     color: var(--myTurquoise);
 }
 
-nav {
+.header-nav {
     display: flex;
     width: 60%;
     align-items: center;
     justify-content: space-evenly;
 }
-nav a {
+.header-nav a {
     text-decoration: none;
-    transition: ease 0.3s;
+}
+.header-link {
+    text-decoration: none;
+    transition: ease 0.4s;
     font-weight: 300;
     font-size: 18px;
 }
-nav a:hover {
+.header-nav a.active {
+    color: var(--myTurquoise);
+    border-bottom: 0.8px solid var(--myTurquoise);
+}
+.header-link:hover {
+    cursor: pointer;
     color: var(--myTurquoise);
 }
 .nav-btn {
@@ -96,7 +104,7 @@ nav a:hover {
     h1 a {
         width: 100%;
     }
-    nav {
+    .header-nav {
         position: fixed;
         top: 0;
         right: 0;

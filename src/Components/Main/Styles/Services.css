@@ -7,35 +7,150 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 42rem;
+    height: 46rem;
     padding-top: 1rem;
 }
 .services-section-div1 {
     width: 94%;
     height: 45%;
-    border: 1px solid red;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
+.services-section-div1 div {
+    width: 70%;
+    display: flex;
+    gap: 2vw;
+    flex-direction: column;
+}
+.services-section-div1 div p {
+    height: 100%;
+    width: 80%;
+    font-weight: 600;
+    line-height: 28px;
+    font-size: clamp(16px, 2vw + 1rem, 19px);
+}
+.services-section-div1 div h5 {
+    font-size: clamp(28px, 2vw + 0.55rem, 56px);
+    line-height: 48px;
+    width: 70%;
+    font-weight: 600;
+    opacity: 0.7;
+}
+.services-section-div1 div h5 i {
+    color: var(--myBlueTurquoise);
+    opacity: 1;
+}
+.services-section-div1 button {
+    width: 10rem;
+    height: 3rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--myBlueTurquoise);
+    color: var(--myLogoColor);
+    transition: ease .3s;
+    font-size: 20px;
+}
+.services-section-div1 button:hover {
+    cursor: pointer;
+    background-color: var(--myTurquoise);
+}
+
 .services-section-div2 {
     width: 94%;
     height: 55%;
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 6vw;
     justify-content: center;
     align-items: center;
+}
+.services-section-div2 div {
+    position: relative;
+    display: flex;
+    height: 60%;
+    width: 18%;
+}
+.services-section-div2 div p {
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    font-size: 22px;
+    background: transparent;
+    opacity: 0;
+    transition: .4s;
+}
+.services-section-div2-div1:hover .services-section-div2-image1,
+.services-section-div2-div2:hover .services-section-div2-image2,
+.services-section-div2-div3:hover .services-section-div2-image3,
+.services-section-div2-div4:hover .services-section-div2-image4 {
+    transform: scale(1.1);
+}
+.services-section-div2-div1:hover .services-section-div2-p1,
+.services-section-div2-div2:hover .services-section-div2-p2,
+.services-section-div2-div3:hover .services-section-div2-p3,
+.services-section-div2-div4:hover .services-section-div2-p4 {
+    transform: translateX(50px);
+    opacity: 1;
+}
+.services-section-div2 img {
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    left: 5%;
+    object-fit: contain;
+    transition: .4s;
 }
 
 
 @media screen and (width < 992px) {
+    .services-section {
+        height: 50rem;
+    }
     .services-section-div1, .services-section-div2 {
         width: 96%;
+        border: 1px solid red;
     }
-
+    .services-section-div2 div {
+        width: 20rem;
+        height: 48%;
+    }
 }
 
 @media screen and (width < 768px) {
-    .services-section-div2 {
+    .services-section-div1 {
+        padding-top: 1rem;
         flex-direction: column;
+        height: 40%;
     }
+    .services-section-div1 div {
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+    .services-section-div2 {
+        gap: 0.5vw;
+        height: 40%;
+    }
+    .services-section-div2 div {
+        width: 49.4%;
+        justify-content: center;
+    }
+    .services-section-div2 div img {
+        width: 35%;
+        left: 30%;
+    }
+    .services-section-div2 div p {
+        text-align: center;
+        top: 45%;
+        left: 25%;
+    }
+    .services-section-div2-div1:hover .services-section-div2-p1,
+    .services-section-div2-div2:hover .services-section-div2-p2,
+    .services-section-div2-div3:hover .services-section-div2-p3,
+    .services-section-div2-div4:hover .services-section-div2-p4 {
+        transform: translateY(50px);
+        opacity: 1;
+}
+
 }

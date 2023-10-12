@@ -58,7 +58,7 @@ h2 button:hover {
         flex-direction: column;
     }
     h2 {
-        width: 100%;
+        width: 98%;
         height: 40%;
         min-height: 16rem;
         flex-direction: row;

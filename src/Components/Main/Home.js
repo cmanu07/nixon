@@ -6,7 +6,7 @@ import './Styles/Home.css'
 
 const Home = () => {
   return (
-    <section className='home-section'>
+    <section className='home-section' id='home'>
         <h2>
             <div className='home-section-title'>
                 <p>We bring <i>solutions</i> to make life easier for our customers.</p>

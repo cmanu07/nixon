@@ -15,7 +15,7 @@ export const testimonies = [
     },
     {
         id:2,
-        rating: 4.8,
+        rating: 4,
         text:'“Este o companie la început de drum, dar cu proiecte frumoase și inovatoare, ce promite multe! Aștept să începem colaborarea cât de curând. Sunt convins că vor ieși lucruri minunate!”',
         user_photo: userPhoto2,
         user_name: 'Andrei Sorian',
@@ -31,4 +31,8 @@ export const testimonies = [
         user_description1:'Departament Proiectare 3D',
         user_description2: 'Lebăda SRL'
     }
+]
+
+export const emails = [
+    
 ]

@@ -13,7 +13,7 @@ footer section {
     height: 100%;
     width: 94%;
     padding-top: 1rem;
-    border-top: 1px solid var(--myFontColor);
+    border-top: 0.8px solid var(--myBlueTurquoise);
 }
 .footer-company, .footer-contact, .footer-newsletter {
     height: 100%;
@@ -112,7 +112,7 @@ footer section {
     transition: ease .3s;
 }
 
-.footer-contact-div1, .footer-contact-p, .footer-contact-div2, .footer-newsletter h6, .footer-newsletter p, .footer-newsletter div {
+.footer-contact-div1, .footer-contact-p, .footer-contact-div2, .footer-newsletter h6, .footer-newsletter p, .footer-newsletter form {
     flex: 1;
     display: flex;
     align-items: center;
@@ -142,7 +142,7 @@ footer section {
     flex-direction: column;
     justify-content: center;
 }
-.footer-newsletter h6, .footer-newsletter p, .footer-newsletter div {
+.footer-newsletter h6, .footer-newsletter p, .footer-newsletter form {
     padding: 0.5rem 0 0 3.2rem;
     width: 80%;
     display: flex;
@@ -151,7 +151,7 @@ footer section {
 .footer-newsletter h6 {
     align-items: center;
 }
-.footer-newsletter div input {
+.footer-newsletter form input {
     border: 0.8px solid var(--myFontColor);
     border-right: none;
     border-radius: 5px 0 0 5px;
@@ -160,13 +160,13 @@ footer section {
     font-size: 16px;
     transition: ease .3s;
 }
-.footer-newsletter div input:focus {
+.footer-newsletter form input:focus {
     outline: none;
     font-size: 18px;
     caret-color: var(--myFontColor);
     border: none;
 }
-.footer-newsletter div button {
+.footer-newsletter form button {
     width: 5rem;
     height: 3rem;
     border-radius: 0 5px 5px 0;
@@ -177,7 +177,7 @@ footer section {
     transition: ease .3s;
     font-size: 20px;
 }
-.footer-newsletter div button:hover {
+.footer-newsletter form button:hover {
     cursor: pointer;
     background-color: var(--myTurquoise);
 }
