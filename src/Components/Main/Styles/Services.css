@@ -125,12 +125,13 @@
 
 @media screen and (width < 768px) {
     .services-section {
-        height: 48rem;
+        height: fit-content;
+        padding-top: 5rem;
     }
     .services-section-div1 {
         padding-top: 1rem;
         flex-direction: column;
-        height: 50%;
+        height: 20rem;
     }
     .services-section-div1 div {
         width: 100%;

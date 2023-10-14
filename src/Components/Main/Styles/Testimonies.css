@@ -124,7 +124,8 @@
 
 @media screen and (width < 768px) {
     .testimonies-section {
-        height: 54rem;
+        height: 58rem;
+        padding-top: 5rem;
     }
     .testimonies-section-div2 {
         flex-direction: column;

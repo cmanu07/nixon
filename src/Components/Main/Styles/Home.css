@@ -62,8 +62,8 @@ h2 {
     }
     h2 {
         width: 98%;
-        height: 55%;
-        min-height: 16rem;
+        height: 50%;
+        min-height: 20rem;
         flex-direction: row;
         align-items: center;
         justify-content: center;
@@ -83,7 +83,8 @@ h2 {
         line-height: 20px;
     }
     .home-section-spline {
-        height: 40%;
+        height: 45%;
+        max-height: 35rem;
     }
     .home-section-title-button {
         font-size: calc(.7 * 1em );

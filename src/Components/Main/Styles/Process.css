@@ -122,7 +122,7 @@
 
 @media screen and (width < 768px) {
     .process-section {
-        height: 84rem;
+        height: fit-content;
     }
     .process-section-details-div2 {
         flex-direction: column;
@@ -130,5 +130,8 @@
     .process-section-details-div2 div {
         height: 36%;
         width: 100%;
+    }
+    .process-section-youtube {
+        height: 20rem;
     }
 }

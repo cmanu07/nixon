@@ -134,5 +134,7 @@ h1 a:hover .span{
 }
 
 @media screen and (width < 768px) {
-    
+    h1 {
+        width: 50%;
+    }
 }
