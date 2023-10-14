@@ -125,7 +125,7 @@
 
 @media screen and (width < 768px) {
     .services-section {
-        height: fit-content;
+        height: 45rem;
         padding-top: 5rem;
     }
     .services-section-div1 {
@@ -143,6 +143,7 @@
     .services-section-div2 {
         gap: 0.5vw;
         height: 50%;
+        padding-top: 2rem;
     }
     .services-section-div2 div {
         width: 49.4%;

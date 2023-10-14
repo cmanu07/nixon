@@ -229,6 +229,7 @@ footer section {
         align-items: center;
         width: 100%;
         padding: 0;
+        font-size: 16px;
     }
     .footer-company div {
         justify-content: center;
