@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useRef } from 'react'
 
 import nixonLogo from '../../Media/Nixon_main.webp'
 
@@ -12,9 +12,9 @@ const Footer = () => {
 
   // const [emailsList, setEmailsList] = useState({emails})
 
-  const addEmail = (index) => {
+  const addEmail = () => {
     const prevEmails = [...emails]
-    prevEmails[index + 1] = emailInput.current.value
+    prevEmails.push(emailInput.current.value)
     emailInput.current.value = ''
     console.log(...emails)
   }
