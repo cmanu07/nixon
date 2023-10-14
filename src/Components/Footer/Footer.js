@@ -1,18 +1,26 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 
 import nixonLogo from '../../Media/Nixon_main.webp'
 
 import './Footer.css'
 
+import { emails } from '../../constants'
+
 const Footer = () => {
 
-  const addEmail = () => {
-    
-    console.log('tare')
+  const emailInput = useRef()
+
+  // const [emailsList, setEmailsList] = useState({emails})
+
+  const addEmail = (index) => {
+    const prevEmails = [...emails]
+    prevEmails[index + 1] = emailInput.current.value
+    emailInput.current.value = ''
+    console.log(...emails)
   }
 
   return (
-    <footer>
+    <footer id='footer'>
       <section>
         <div className='footer-company'>
           <img src={nixonLogo} alt='Company Logo...' className='footer-company-logo'/>
@@ -40,10 +48,10 @@ const Footer = () => {
         <div className='footer-newsletter'>
             <h6>Our newsletter</h6>
             <p>Subscribe to our newsletter to get our news delivered to you.</p>
-            <form>
-              <input type='email' required/>
-              <button onSubmit={addEmail}>Join</button>
-            </form>
+            <div>
+              <input type='email' id='email_input' name='email_input' required ref={emailInput}/>
+              <button onClick={addEmail}>Join</button>
+            </div>
         </div>
       </section>
     </footer>

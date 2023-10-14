@@ -110,27 +110,36 @@
     }
     .services-section-div1, .services-section-div2 {
         width: 96%;
-        border: 1px solid red;
     }
     .services-section-div2 div {
         width: 20rem;
-        height: 48%;
+        height: 40%;
+    }
+    .services-section-div2 img {
+        width: 30%;
+        height: 60%;
     }
 }
 
 @media screen and (width < 768px) {
+    .services-section {
+        height: 44rem;
+    }
     .services-section-div1 {
         padding-top: 1rem;
         flex-direction: column;
-        height: 40%;
+        height: 50%;
     }
     .services-section-div1 div {
         width: 100%;
         padding-bottom: 1rem;
     }
+    .services-section-div1 div p, .services-section-div1 div h5 {
+        width: 100%;
+    }
     .services-section-div2 {
         gap: 0.5vw;
-        height: 40%;
+        height: 50%;
     }
     .services-section-div2 div {
         width: 49.4%;
@@ -142,8 +151,9 @@
     }
     .services-section-div2 div p {
         text-align: center;
-        top: 45%;
-        left: 25%;
+        font-size: 16px;
+        top: 32%;
+        left: 33%;
     }
     .services-section-div2-div1:hover .services-section-div2-p1,
     .services-section-div2-div2:hover .services-section-div2-p2,

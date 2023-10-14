@@ -33,6 +33,6 @@ export const testimonies = [
     }
 ]
 
-export const emails = [
+export const emails = {
     
-]
+}

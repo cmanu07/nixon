@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
-import { NavLink } from 'react-router-dom'
 import { Link } from 'react-scroll'
 
 import nixon_logo from '../../Media/nixon_logo.png'
@@ -36,23 +35,23 @@ const Header = () => {
         </h1>
         <nav ref={navRef} className='header-nav'>
           <Link to='home' className='header-link' onClick={showNavbar}
-                  spy={true} smooth={true} offset={-20} duration={500}>
+                  spy={true} smooth={true} offset={-20} duration={200}>
               Home
           </Link>
           <Link to='process' className='header-link' onClick={showNavbar}
-                  spy={true} smooth={true} offset={-20} duration={550}>
+                  spy={true} smooth={true} offset={-20} duration={200}>
               Process
           </Link>
           <Link to='testimonies' className='header-link' onClick={showNavbar}
-                  spy={true} smooth={true} offset={-20} duration={550}>
+                  spy={true} smooth={true} offset={-10} duration={200}>
               Testimonials
           </Link>
           <Link to='services' className='header-link' onClick={showNavbar}
-                  spy={true} smooth={true} offset={-20} duration={550}>
+                  spy={true} smooth={true} offset={-10} duration={200}>
               Services
           </Link>
           <Link to='about' className='header-link' onClick={showNavbar}
-                  spy={true} smooth={true} offset={-20} duration={550}>
+                  spy={true} smooth={true} offset={-10} duration={200}>
               About
           </Link>
           <button className='nav-btn nav-close-btn' onClick={showNavbar}>
