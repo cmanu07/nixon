@@ -41,18 +41,20 @@
     color: var(--myBlueTurquoise);
     opacity: 1;
 }
-.services-section-div1 button {
+.services-section-div1-button {
     width: 10rem;
     height: 3rem;
-    outline: none;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 5px;
     background-color: var(--myBlueTurquoise);
     color: var(--myLogoColor);
     transition: ease .3s;
     font-size: 20px;
 }
-.services-section-div1 button:hover {
+.services-section-div1-button:hover {
     cursor: pointer;
     background-color: var(--myTurquoise);
 }

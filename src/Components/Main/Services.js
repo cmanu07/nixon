@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 import './Styles/Services.css'
 
@@ -16,7 +17,9 @@ const Services = () => {
             <p>WHAT WE DO?</p>
             <h5>The service we offer is <i>specifically</i> designed to meet your needs.</h5>
           </div>
-          <button>Get in Touch</button>
+          <Link to='footer' className='services-section-div1-button' spy={true} smooth={true} offset={-20} duration={200}>
+            Get in Touch
+          </Link>
         </div>
         <div className='services-section-div2'>
           <div className='services-section-div2-div1'>
