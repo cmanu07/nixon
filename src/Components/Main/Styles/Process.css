@@ -121,6 +121,9 @@
 }
 
 @media screen and (width < 768px) {
+    .process-section {
+        height: 84rem;
+    }
     .process-section-details-div2 {
         flex-direction: column;
     }
