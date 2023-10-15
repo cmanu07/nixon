@@ -181,7 +181,7 @@ footer section {
 }
 .footer-newsletter form button {
     width: 5rem;
-    height: 3rem;
+    height: 3.1rem;
     padding-bottom: 0.2rem;
     border-radius: 0 5px 5px 0;
     border-style: none;
@@ -194,6 +194,8 @@ footer section {
 .footer-newsletter form button:hover {
     cursor: pointer;
     background-color: var(--myTurquoise);
+    color: var(--myBlack);
+    font-weight: 600;
 }
 
 @media screen and (width < 992px) {

@@ -57,6 +57,8 @@
 .services-section-div1-button:hover {
     cursor: pointer;
     background-color: var(--myTurquoise);
+    color: var(--myBlack);
+    font-weight: 600;
 }
 
 .services-section-div2 {

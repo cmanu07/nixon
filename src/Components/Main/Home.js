@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link } from 'react-scroll';
+import Spline from '@splinetool/react-spline'
+import { Link } from 'react-scroll'
 
-import Spline from '@splinetool/react-spline';
 
 import './Styles/Home.css'
 

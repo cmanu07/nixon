@@ -53,6 +53,8 @@ h2 {
 .home-section-title-button:hover {
     cursor: pointer;
     background-color: var(--myTurquoise);
+    color: var(--myBlack);
+    font-weight: 600;
 }
 
 
