@@ -105,7 +105,7 @@
 }
 .testimony-username {
     font-weight: 600;
-    font-size: clamp(10px, 2vw + 0.85rem, 22px);;
+    font-size: clamp(10px, 2vw + 0.7rem, 22px);
 }
 .testimony-username, .testimony-description {
     width: 100%;
@@ -132,12 +132,16 @@
     }
     .testimony-div {
         min-width: 100%;
-        max-height: 16rem;
+        max-height: 14rem;
     }
     .testimony-div-p2 {
         font-size: 16px;
     }
     .testimony-description {
         height: 40%;
+    }
+    .testimony-div :nth-child(3) img {
+        width: 4rem;
+        height: 4rem;
     }
 }
